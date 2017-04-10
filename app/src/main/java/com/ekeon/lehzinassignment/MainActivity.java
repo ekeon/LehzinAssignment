@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.text.Editable;
+import android.text.TextUtils;
 import android.text.TextWatcher;
 import android.util.Log;
 import android.widget.EditText;
@@ -26,15 +27,10 @@ public class MainActivity extends AppCompatActivity implements MainActivityView 
 
     private MainActivityAdapter mainActivityAdapter;
 
-    private Timer timer;
+    private Timer timer = new Timer();
 
     @BindView(R.id.rv_main) RecyclerView rvMain;
     @BindView(R.id.et_text_field) EditText etTextField;
-
-    @OnClick(R.id.connection_btn)
-    void connectionBtnClicked(){
-        mainActivityPresenter.getImageResult(etTextField.getText().toString());
-    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -52,12 +48,10 @@ public class MainActivity extends AppCompatActivity implements MainActivityView 
     private TextWatcher textwatcher = new TextWatcher() {
         @Override
         public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {
-
         }
 
         @Override
         public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
-            Log.d("TAG", "onTextChanged: hoi");
         }
 
         @Override
@@ -71,7 +65,11 @@ public class MainActivity extends AppCompatActivity implements MainActivityView 
             timer.schedule(new TimerTask() {
                 @Override
                 public void run() {
-                    Log.d("TAG", "afterTextChanged: hai");
+                    if (TextUtils.isEmpty("" + etTextField.getText().toString())) {
+                        // TODO: 2017. 4. 11. 토스트나 검색어를 입력해주세요 문구.
+                        return;
+                    }
+                    mainActivityPresenter.getImageResult(etTextField.getText().toString());
                 }
             }, 1000);
         }
@@ -98,6 +96,9 @@ public class MainActivity extends AppCompatActivity implements MainActivityView 
 
     @Override
     protected void onDestroy() {
+        if (timer != null) {
+            timer.cancel();
+        }
         super.onDestroy();
     }
 }

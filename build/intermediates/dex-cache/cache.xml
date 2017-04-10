@@ -30,6 +30,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/ekeon/LehzinAssignment/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/Users/ekeon/LehzinAssignment/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.3.1_05f151735aaacfa3ad681b7aa4899acd89f58cd7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/ekeon/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.11.0/840897fcd7223a8143f1d9b6f69714e7be34fd50/okio-1.11.0.jar"
         jumboMode="true"
         optimize="true"
@@ -54,114 +63,6 @@
         revision="25.0.2"
         sha1="3ee0e527143abbe130ddba4c1fa6c4be5d66ed5c">
         <dex dex="/Users/ekeon/LehzinAssignment/app/build/intermediates/transforms/dex/debug/folders/1000/10/adapter-rxjava2-2.2.0_5f5340d40743f36d9e1c300740d1c76fb1b1340b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/ekeon/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.2.0/41e67dba73c3347e4503761642c39d0e06ca1f2/retrofit-2.2.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="041e67dba73c3347e4503761642c39d0e06ca1f2">
-        <dex dex="/Users/ekeon/LehzinAssignment/app/build/intermediates/transforms/dex/debug/folders/1000/10/retrofit-2.2.0_83b90a1fe3e5ba0e6562f755b5a00941fb9fd260/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/ekeon/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.0.1/57f850a6b317e5582f1dbaff10a9e7d7e1fcdcfb/rxjava-2.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="57f850a6b317e5582f1dbaff10a9e7d7e1fcdcfb">
-        <dex dex="/Users/ekeon/LehzinAssignment/app/build/intermediates/transforms/dex/debug/folders/1000/10/rxjava-2.0.1_175c8bd1bf24ca30c5b2ce09645257cad1807d3c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/ekeon/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.5.1/bb67dad90bab7cd77a8f7f1b8442b47e3a2326bc/butterknife-annotations-8.5.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="bb67dad90bab7cd77a8f7f1b8442b47e3a2326bc">
-        <dex dex="/Users/ekeon/LehzinAssignment/app/build/intermediates/transforms/dex/debug/folders/1000/10/butterknife-annotations-8.5.1_dd841a821f699a0ac8bd28d6a994b75885d9bbc3/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/ekeon/LehzinAssignment/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
-        <dex dex="/Users/ekeon/LehzinAssignment/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.3.1_2d400f7bb78fac98230ab4f6cd9421e0aad62c85/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/ekeon/LehzinAssignment/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0dc0e52a5f6d677d73c42a5a4cf7b89df7854fff">
-        <dex dex="/Users/ekeon/LehzinAssignment/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_d6fcfb9edfe518ce0290318cfca73ef29f8f5f1e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/ekeon/LehzinAssignment/app/build/intermediates/exploded-aar/com.jakewharton/butterknife/8.5.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="19f281a785ca0eb5f6799fc7bf7ca199a9ca1e8b">
-        <dex dex="/Users/ekeon/LehzinAssignment/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.jakewharton-butterknife-8.5.1_6ec983a78607665463b794109d014d14555da0cf/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/ekeon/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/logging-interceptor/3.6.0/81887458b69ddc32722df7e4c35235fd74e6a8ba/logging-interceptor-3.6.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="81887458b69ddc32722df7e4c35235fd74e6a8ba">
-        <dex dex="/Users/ekeon/LehzinAssignment/app/build/intermediates/transforms/dex/debug/folders/1000/10/logging-interceptor-3.6.0_58a3f00276a28517f0e585687ef51b09fe279672/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/ekeon/LehzinAssignment/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
-        <dex dex="/Users/ekeon/LehzinAssignment/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.3.1_be3327ee2624e348c49613f2f012007f75cae42e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/ekeon/LehzinAssignment/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="bd6e69c3e0dfba6f7a60ea5487f7351a8fd383ba">
-        <dex dex="/Users/ekeon/LehzinAssignment/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.facebook.fresco-drawee-1.2.0_4082bf5cc2a7ad4b5a948fd7284cd733f5c69ead/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/ekeon/LehzinAssignment/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="683ac3c4bea1c502b27ede58061a9e2cca684ca3">
-        <dex dex="/Users/ekeon/LehzinAssignment/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.facebook.fresco-imagepipeline-1.2.0_e60acd121548b623a3bf0647116fe43262b95ecc/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/ekeon/LehzinAssignment/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
-        <dex dex="/Users/ekeon/LehzinAssignment/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.3.1_547d239f4ee663d5c0e2bb368ee9ad0d4f4693eb/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/ekeon/LehzinAssignment/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
-        <dex dex="/Users/ekeon/LehzinAssignment/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.3.1_05f151735aaacfa3ad681b7aa4899acd89f58cd7/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -228,12 +129,75 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/ekeon/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.2.0/41e67dba73c3347e4503761642c39d0e06ca1f2/retrofit-2.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="041e67dba73c3347e4503761642c39d0e06ca1f2">
+        <dex dex="/Users/ekeon/LehzinAssignment/app/build/intermediates/transforms/dex/debug/folders/1000/10/retrofit-2.2.0_83b90a1fe3e5ba0e6562f755b5a00941fb9fd260/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/ekeon/LehzinAssignment/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.3.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="95519720620b553f63afc789beba9ad582807f7c">
         <dex dex="/Users/ekeon/LehzinAssignment/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-25.3.1_0e476fa2f4086801de147bd6f9cd3b750fb4dd14/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ekeon/LehzinAssignment/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b0e74c38958bfc44d20d1126db256ae789d08d77">
+        <dex dex="/Users/ekeon/LehzinAssignment/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_d6fcfb9edfe518ce0290318cfca73ef29f8f5f1e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ekeon/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.0.1/57f850a6b317e5582f1dbaff10a9e7d7e1fcdcfb/rxjava-2.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="57f850a6b317e5582f1dbaff10a9e7d7e1fcdcfb">
+        <dex dex="/Users/ekeon/LehzinAssignment/app/build/intermediates/transforms/dex/debug/folders/1000/10/rxjava-2.0.1_175c8bd1bf24ca30c5b2ce09645257cad1807d3c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ekeon/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.5.1/bb67dad90bab7cd77a8f7f1b8442b47e3a2326bc/butterknife-annotations-8.5.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bb67dad90bab7cd77a8f7f1b8442b47e3a2326bc">
+        <dex dex="/Users/ekeon/LehzinAssignment/app/build/intermediates/transforms/dex/debug/folders/1000/10/butterknife-annotations-8.5.1_dd841a821f699a0ac8bd28d6a994b75885d9bbc3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ekeon/LehzinAssignment/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/Users/ekeon/LehzinAssignment/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.3.1_2d400f7bb78fac98230ab4f6cd9421e0aad62c85/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ekeon/LehzinAssignment/app/build/intermediates/exploded-aar/com.jakewharton/butterknife/8.5.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="19f281a785ca0eb5f6799fc7bf7ca199a9ca1e8b">
+        <dex dex="/Users/ekeon/LehzinAssignment/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.jakewharton-butterknife-8.5.1_6ec983a78607665463b794109d014d14555da0cf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ekeon/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/logging-interceptor/3.6.0/81887458b69ddc32722df7e4c35235fd74e6a8ba/logging-interceptor-3.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="81887458b69ddc32722df7e4c35235fd74e6a8ba">
+        <dex dex="/Users/ekeon/LehzinAssignment/app/build/intermediates/transforms/dex/debug/folders/1000/10/logging-interceptor-3.6.0_58a3f00276a28517f0e585687ef51b09fe279672/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -246,12 +210,30 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/ekeon/LehzinAssignment/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/Users/ekeon/LehzinAssignment/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.3.1_be3327ee2624e348c49613f2f012007f75cae42e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/ekeon/LehzinAssignment/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.2.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="691163c366515ad6ef976a0dccee75f8fbb281e1">
         <dex dex="/Users/ekeon/LehzinAssignment/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.facebook.fresco-fbcore-1.2.0_9eb4deaba93fb21e0848459ef3e67da81cc83220/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ekeon/LehzinAssignment/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bd6e69c3e0dfba6f7a60ea5487f7351a8fd383ba">
+        <dex dex="/Users/ekeon/LehzinAssignment/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.facebook.fresco-drawee-1.2.0_4082bf5cc2a7ad4b5a948fd7284cd733f5c69ead/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -264,12 +246,30 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/ekeon/LehzinAssignment/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="683ac3c4bea1c502b27ede58061a9e2cca684ca3">
+        <dex dex="/Users/ekeon/LehzinAssignment/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.facebook.fresco-imagepipeline-1.2.0_e60acd121548b623a3bf0647116fe43262b95ecc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/ekeon/LehzinAssignment/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="932fd0078e5a0a0d6b6213af9958f2c6ebf33bef">
         <dex dex="/Users/ekeon/LehzinAssignment/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_bc1d664414c4d8c79aaf1dbf1b5b9994a19baf93/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ekeon/LehzinAssignment/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/Users/ekeon/LehzinAssignment/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.3.1_547d239f4ee663d5c0e2bb368ee9ad0d4f4693eb/classes.dex" />
     </item>
     <item
         is-multidex="true"

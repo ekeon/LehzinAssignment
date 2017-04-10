@@ -10,7 +10,12 @@ import android.view.View;
 
 import com.ekeon.lehzinassignment.R;
 import com.ekeon.lehzinassignment.model.ItemModel;
+import com.facebook.drawee.backends.pipeline.Fresco;
+import com.facebook.drawee.backends.pipeline.PipelineDraweeController;
 import com.facebook.drawee.view.SimpleDraweeView;
+import com.facebook.imagepipeline.common.ResizeOptions;
+import com.facebook.imagepipeline.request.ImageRequest;
+import com.facebook.imagepipeline.request.ImageRequestBuilder;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -40,7 +45,6 @@ public class MainImageViewHolder extends RecyclerView.ViewHolder {
         //height resize = width resize * orignal height / orignal width;
         int heightResize = (recyclerViewWidth * itemModel.getHeight()) / itemModel.getWidth();
 
-//        StaggeredGridLayoutManager.LayoutParams params = (StaggeredGridLayoutManager.LayoutParams) itemView.getLayoutParams();
         sdvImage.getLayoutParams().width = recyclerViewWidth;
         sdvImage.getLayoutParams().height = heightResize;
 
