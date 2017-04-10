@@ -1,5 +1,7 @@
 package com.ekeon.lehzinassignment.model;
 
+import com.google.gson.annotations.SerializedName;
+
 import lombok.Getter;
 import lombok.Setter;
 
@@ -9,6 +11,6 @@ import lombok.Setter;
 
 public class MainModel {
 
-    @Getter @Setter
+    @Getter @Setter @SerializedName("channel")
     private ChannelModel channelModel;
 }

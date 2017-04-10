@@ -40,12 +40,25 @@ public class MainActivityPresenterImpl implements MainActivityPresenter {
                 .subscribe(new DisposableObserver<MainModel>() {
                     @Override
                     public void onNext(MainModel value) {
-                        Log.d("TAG", "value : " + value);
+                        Log.d("TAG", "value : " + value.getChannelModel().getPageCount());
+
+                        MainActivityView mainActivityView = getMainActivityView();
+                        if (mainActivityView == null) {
+                            return;
+                        }
+                        mainActivityView.successGetResult(value);
+
                     }
 
                     @Override
                     public void onError(Throwable e) {
                         Log.d("TAG", "Error : " + e);
+
+                        MainActivityView mainActivityView = getMainActivityView();
+                        if (mainActivityView == null) {
+                            return;
+                        }
+                        mainActivityView.failGetResult(e);
                     }
 
                     @Override

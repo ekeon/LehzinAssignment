@@ -1,5 +1,7 @@
 package com.ekeon.lehzinassignment.model;
 
+import com.google.gson.annotations.SerializedName;
+
 import lombok.Getter;
 import lombok.Setter;
 
@@ -9,30 +11,30 @@ import lombok.Setter;
 
 public class ItemModel {
 
-    @Getter @Setter
+    @Getter @Setter @SerializedName("pubDate")
     private long pubDate;
 
-    @Getter @Setter
+    @Getter @Setter @SerializedName("title")
     private String title;
 
-    @Getter @Setter
+    @Getter @Setter @SerializedName("thumbnail")
     private String thumbnail;
 
-    @Getter @Setter
+    @Getter @Setter @SerializedName("cp")
     private long cp;
 
-    @Getter @Setter
+    @Getter @Setter @SerializedName("height")
     private long height;
 
-    @Getter @Setter
+    @Getter @Setter @SerializedName("link")
     private String link;
 
-    @Getter @Setter
+    @Getter @Setter @SerializedName("width")
     private long width;
 
-    @Getter @Setter
+    @Getter @Setter @SerializedName("image")
     private String image;
 
-    @Getter @Setter
+    @Getter @Setter @SerializedName("cpname")
     private String cpname;
 }
