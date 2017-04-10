@@ -6,5 +6,5 @@ package com.ekeon.lehzinassignment;
 
 public interface MainActivityPresenter {
 
-    void getImageResult();
+    void getImageResult(String keyword);
 }

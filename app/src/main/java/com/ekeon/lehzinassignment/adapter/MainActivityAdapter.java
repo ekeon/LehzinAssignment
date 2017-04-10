@@ -16,10 +16,16 @@ public class MainActivityAdapter extends RecyclerView.Adapter {
 
     private final int TYPE_IMAGE = 0;
     private MainModel value;
+    private int recyclerViewWidth = 0;
 
     public void getValue(MainModel value) {
         this.value = value;
-        Log.d("TAG", "setImage: " + value.getChannelModel().getItem().get(1).getImage());
+        Log.d("TAG", "setImage: " + value.getChannelModel().getItem().get(0).getImage());
+    }
+
+    public void getRecyclerViewWidth(int recyclerViewWidth) {
+        Log.d("TAG", "getRecyclerViewWidth: " + recyclerViewWidth);
+        this.recyclerViewWidth = recyclerViewWidth;
     }
 
     @Override
@@ -38,7 +44,7 @@ public class MainActivityAdapter extends RecyclerView.Adapter {
     @Override
     public void onBindViewHolder(RecyclerView.ViewHolder holder, int position) {
         if (holder instanceof MainImageViewHolder) {
-            ((MainImageViewHolder) holder).setImage(value.getChannelModel().getItem().get(position).getImage());
+            ((MainImageViewHolder) holder).bind(value.getChannelModel().getItem().get(position), recyclerViewWidth);
         }
     }
 

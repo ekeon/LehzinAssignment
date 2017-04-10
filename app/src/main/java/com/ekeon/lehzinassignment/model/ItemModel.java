@@ -24,13 +24,13 @@ public class ItemModel {
     private long cp;
 
     @Getter @Setter @SerializedName("height")
-    private long height;
+    private int height;
 
     @Getter @Setter @SerializedName("link")
     private String link;
 
     @Getter @Setter @SerializedName("width")
-    private long width;
+    private int width;
 
     @Getter @Setter @SerializedName("image")
     private String image;

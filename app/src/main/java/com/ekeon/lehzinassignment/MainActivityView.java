@@ -10,5 +10,7 @@ public interface MainActivityView {
 
     void successGetResult(MainModel value);
 
+    void successGetResultNoItem();
+
     void failGetResult(Throwable e);
 }

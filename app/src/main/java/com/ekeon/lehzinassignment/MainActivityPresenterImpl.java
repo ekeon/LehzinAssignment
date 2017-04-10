@@ -32,22 +32,26 @@ public class MainActivityPresenterImpl implements MainActivityPresenter {
     }
 
     @Override
-    public void getImageResult() {
+    public void getImageResult(String keyword) {
         DaumImageSearchService daumImageSearchService = DaumImageClient.createRetrofitService(DaumImageSearchService.class);
-        daumImageSearchService.getResult(DAUM_API_KEY, "hi", OUTPUT)
+        daumImageSearchService.getResult(DAUM_API_KEY, "" + keyword, OUTPUT)
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(new DisposableObserver<MainModel>() {
                     @Override
                     public void onNext(MainModel value) {
                         Log.d("TAG", "value : " + value.getChannelModel().getPageCount());
-
                         MainActivityView mainActivityView = getMainActivityView();
                         if (mainActivityView == null) {
                             return;
                         }
-                        mainActivityView.successGetResult(value);
 
+                        if (value.getChannelModel().getResult() == 0) {
+                            mainActivityView.successGetResultNoItem();
+                            return;
+                        }
+
+                        mainActivityView.successGetResult(value);
                     }
 
                     @Override
@@ -63,7 +67,6 @@ public class MainActivityPresenterImpl implements MainActivityPresenter {
 
                     @Override
                     public void onComplete() {
-
                     }
                 });
     }
