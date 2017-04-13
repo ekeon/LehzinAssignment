@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">LehzinAssignment</string>
+    <string name="network_state_check">인터넷을 확인해주세요!</string>
+    <string name="query_not">검색어를 입력해주세요!</string>
+    <string name="result_not">검색결과가 없어요.</string>
+    <string name="error">에러입니다</string>
 </resources>

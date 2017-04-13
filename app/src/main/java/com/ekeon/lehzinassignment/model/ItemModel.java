@@ -21,7 +21,7 @@ public class ItemModel {
     private String thumbnail;
 
     @Getter @Setter @SerializedName("cp")
-    private long cp;
+    private String cp;
 
     @Getter @Setter @SerializedName("height")
     private int height;
